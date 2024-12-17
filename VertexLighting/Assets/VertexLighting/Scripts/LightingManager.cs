@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 using System;
 
 public enum LightMode{
@@ -15,7 +16,7 @@ public class LightingManager : MonoBehaviour{
 
     [Space(10)]
     public Color baseLightColor = new Color(0, 0, 0, 1);
-    public float updatesPerSecond = 0.075f;
+    public float updatesPerSecond = 0.04f;
 
     [Space(10)]
     public bool rebakeLightsOnStart;
@@ -25,14 +26,8 @@ public class LightingManager : MonoBehaviour{
     float updateT;
 
     private void Start(){
-        if(rebakeLightsOnStart){  
-            LightableSurface[] lightableSurfaces = FindObjectsOfType<LightableSurface>();
-            
-            foreach (var surface in lightableSurfaces){
-                if(surface.staticSurface){
-                    surface.BakeLighting();
-                }
-            }
+        if(rebakeLightsOnStart){
+            BakeLights();
         }
     }
 
@@ -41,6 +36,26 @@ public class LightingManager : MonoBehaviour{
         if(updateT > updatesPerSecond){
             updateT = 0;
             StartCoroutine(UpdateLighting());
+        }
+    }
+
+    public void BakeLights(){
+        LightableSurface[] lightableSurfaces = FindObjectsOfType<LightableSurface>();
+
+        foreach (var surface in lightableSurfaces){
+            if(surface.staticSurface){
+                surface.BakeLighting();
+            }
+        }
+    }
+
+    public void ClearBakedLights(){
+        LightableSurface[] lightableSurfaces = FindObjectsOfType<LightableSurface>();
+
+        foreach (var surface in lightableSurfaces){
+            if(surface.staticSurface){
+                surface.ClearBakedData();
+            }
         }
     }
 
@@ -53,10 +68,11 @@ public class LightingManager : MonoBehaviour{
             UpdateMaterials(lightableSurfaces);
         }
 
+
         switch(lightMode){
             case LightMode.lit:
                 foreach (var lightableSurface in lightableSurfaces){
-                    lightableSurface.UpdateLighting(this, lights);
+                    lightableSurface.UpdateSurfaceLighting(this, lights);
                 }    
                 break;
             case LightMode.unlit:
@@ -71,7 +87,7 @@ public class LightingManager : MonoBehaviour{
                 break;
             case LightMode.debugLight:
                 foreach (var lightableSurface in lightableSurfaces){
-                    lightableSurface.UpdateLighting(this, lights);
+                    lightableSurface.UpdateSurfaceLighting(this, lights);
                 }    
                 break;
         }
@@ -101,6 +117,25 @@ public class LightingManager : MonoBehaviour{
                         break;
                 }
             }
+        }
+    }
+}
+
+
+[CustomEditor(typeof(LightingManager))]
+public class LightManagerEditor : Editor {
+    public override void OnInspectorGUI() {
+        base.OnInspectorGUI();
+        GUILayout.Space(30);
+        LightingManager manager = (LightingManager)target;
+
+
+        if(GUILayout.Button("Bake Lighting")){
+            manager.BakeLights();
+        }
+
+        if(GUILayout.Button("Clear Baked Lighting")){
+            manager.ClearBakedLights();
         }
     }
 }

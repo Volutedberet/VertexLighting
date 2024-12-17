@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class LightableSurface : MonoBehaviour{
     public bool staticSurface;
@@ -9,7 +11,10 @@ public class LightableSurface : MonoBehaviour{
     void Start(){
         mesh = this.gameObject.GetComponent<MeshFilter>().mesh;
         startPosition = this.transform.position;
-        bakedBrightness = new float[mesh.vertices.Length];
+
+        if(bakedBrightness == null){
+            bakedBrightness = new float[mesh.vertices.Length];
+        }
     }
 
     private void Update(){
@@ -22,11 +27,16 @@ public class LightableSurface : MonoBehaviour{
     }
 
     public void BakeLighting(){
+        if(mesh == null){
+            mesh = this.gameObject.GetComponent<MeshFilter>().sharedMesh;
+        }
+
         LightingManager lm = FindObjectOfType<LightingManager>();
         LightPoint[] lights = FindObjectsOfType<LightPoint>();
 
         Vector3[] vertices = mesh.vertices;
         Color[] colors = new Color[vertices.Length];
+        bakedBrightness = new float[mesh.vertices.Length];
 
         for (int i = 0; i < vertices.Length; i++){
             foreach (var light in lights){
@@ -45,14 +55,32 @@ public class LightableSurface : MonoBehaviour{
         mesh.colors = colors;
     }
 
-    public void UpdateLighting(LightingManager lightingManager, LightPoint[] lights){
+    public void ClearBakedData(){
+        if(mesh == null){
+            mesh = this.gameObject.GetComponent<MeshFilter>().sharedMesh;
+        }
+
+        Vector3[] vertices = mesh.vertices;
+        Color[] colors = new Color[vertices.Length];
+        bakedBrightness = new float[mesh.vertices.Length];
+
+        for (int i = 0; i < vertices.Length; i++){
+            colors[i] = new Color(1, 1, 1, 1);
+        }
+
+        mesh.colors = colors;     
+    }
+
+    public void UpdateSurfaceLighting(LightingManager lightingManager, LightPoint[] lights){        
         Vector3[] vertices = mesh.vertices;
         Color[] colors = new Color[vertices.Length];
         float[] brightness = new float[vertices.Length];
 
         if(staticSurface){
-            for (int i = 0; i < bakedBrightness.Length; i++){
-                brightness[i] = bakedBrightness[i];
+            if(bakedBrightness.Length > 0){
+                for (int i = 0; i < bakedBrightness.Length; i++){
+                    brightness[i] = bakedBrightness[i];
+                }                
             }
         }
 
