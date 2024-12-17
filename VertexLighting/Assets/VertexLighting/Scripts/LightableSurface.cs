@@ -1,0 +1,97 @@
+using UnityEngine;
+
+public class LightableSurface : MonoBehaviour{
+    public bool staticSurface;
+    Mesh mesh;
+    float[] bakedBrightness;
+    Vector3 startPosition;
+
+    void Start(){
+        mesh = this.gameObject.GetComponent<MeshFilter>().mesh;
+        startPosition = this.transform.position;
+        bakedBrightness = new float[mesh.vertices.Length];
+    }
+
+    private void Update(){
+        if(staticSurface){
+            if(this.transform.position != startPosition){
+                Debug.LogError($"A static surface ({this.gameObject.name}) has been moved!  This surface might have baked lighting, that will get inaccurate when the surface is moved, if you want this object to move, make sure it's not set to static!");
+                this.transform.position = startPosition;
+            }
+        }
+    }
+
+    public void BakeLighting(){
+        LightingManager lm = FindObjectOfType<LightingManager>();
+        LightPoint[] lights = FindObjectsOfType<LightPoint>();
+
+        Vector3[] vertices = mesh.vertices;
+        Color[] colors = new Color[vertices.Length];
+
+        for (int i = 0; i < vertices.Length; i++){
+            foreach (var light in lights){
+                if(light.lightMode == LightRenderMode.baked){
+                    if(Vector3.Distance(this.transform.position + vertices[i], light.transform.position) < light.radious){
+                        float lightLevel = Mathf.Lerp(1, 0, Vector3.Distance(this.transform.position + vertices[i], light.transform.position) / light.radious) * light.intensity;
+                        if(lightLevel > bakedBrightness[i]){
+                            bakedBrightness[i] = lightLevel;
+                        }
+                    }                    
+                }
+            }
+            colors[i] = Color.Lerp(lm.baseLightColor, new Color(1, 1, 1, 1), bakedBrightness[i]);
+        }
+
+        mesh.colors = colors;
+    }
+
+    public void UpdateLighting(LightingManager lightingManager, LightPoint[] lights){
+        Vector3[] vertices = mesh.vertices;
+        Color[] colors = new Color[vertices.Length];
+        float[] brightness = new float[vertices.Length];
+
+        if(staticSurface){
+            for (int i = 0; i < bakedBrightness.Length; i++){
+                brightness[i] = bakedBrightness[i];
+            }
+        }
+
+        for (int i = 0; i < vertices.Length; i++){
+            foreach (var light in lights){
+                if(light.lightMode == LightRenderMode.realtime){
+                    if(Vector3.Distance(this.transform.position + vertices[i], light.transform.position) < light.radious){
+                        float lightLevel = Mathf.Lerp(1, 0, Vector3.Distance(this.transform.position + vertices[i], light.transform.position) / light.radious) * light.intensity;
+                        if(lightLevel > brightness[i]){
+                            brightness[i] = lightLevel;
+                        }
+                    }                    
+                }
+            }
+            colors[i] = Color.Lerp(lightingManager.baseLightColor, new Color(1, 1, 1, 1), brightness[i]);
+        }
+
+        mesh.colors = colors;
+    }
+
+    public void ResetLighting(){
+        Vector3[] vertices = mesh.vertices;
+        Color[] colors = new Color[vertices.Length];
+
+        for (int i = 0; i < vertices.Length; i++){
+            colors[i] = new Color(1, 1, 1, 1);
+        }
+
+        mesh.colors = colors;        
+    }
+
+    public void VisualiseVerts(){
+        Vector3[] vertices = mesh.vertices;
+        Color[] colors = new Color[vertices.Length];
+
+        for (int i = 0; i < vertices.Length; i++){
+            colors[i] = Color.Lerp(Color.blue, Color.red, Mathf.Repeat(0.5f * i, 1));
+        }
+
+        mesh.colors = colors;
+    }
+}
