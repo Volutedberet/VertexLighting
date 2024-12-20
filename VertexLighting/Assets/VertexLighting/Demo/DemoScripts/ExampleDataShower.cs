@@ -11,7 +11,7 @@ public class ExampleDataShower : MonoBehaviour{
         updateT += Time.deltaTime;
 
         if(updateT > 0.05f){
-            dataDisplay.text = $"Current Mode: {lm.lightMode}  |  Lighting Time: {lm.msThisUpdate}MS  |  FPS: {(1.0f / Time.deltaTime).ToString("F0")}  |  Secs Between Updates: {lm.updatesPerSecond.ToString("F3")}";
+            dataDisplay.text = $"Current Mode: {lm.lightMode}  |  Lighting Time: {lm.msThisUpdate}MS  |  FPS: {(1.0f / Time.deltaTime).ToString("F0")}  |  Secs Between Updates: {lm.secondsBetweenUpdates.ToString("F3")}";
             updateT = 0;
         }
 
@@ -33,13 +33,13 @@ public class ExampleDataShower : MonoBehaviour{
         }
 
         if(Input.GetKey(KeyCode.UpArrow)){
-            lm.updatesPerSecond += 0.1f * Time.deltaTime;
+            lm.secondsBetweenUpdates += 0.1f * Time.deltaTime;
         }
 
         if(Input.GetKey(KeyCode.DownArrow)){
-            lm.updatesPerSecond -= 0.1f * Time.deltaTime;
-            if(lm.updatesPerSecond < 0){
-                lm.updatesPerSecond = 0;
+            lm.secondsBetweenUpdates -= 0.1f * Time.deltaTime;
+            if(lm.secondsBetweenUpdates < 0){
+                lm.secondsBetweenUpdates = 0;
             }
         }
     }

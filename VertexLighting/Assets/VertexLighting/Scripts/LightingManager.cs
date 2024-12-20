@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
 using System;
 
 public enum LightMode{
@@ -16,7 +15,7 @@ public class LightingManager : MonoBehaviour{
 
     [Space(10)]
     public Color baseLightColor = new Color(0, 0, 0, 1);
-    public float updatesPerSecond = 0.04f;
+    public float secondsBetweenUpdates = 0.04f;
 
     [Space(10)]
     public float dynamicLightActiveDistance = 50;
@@ -38,7 +37,7 @@ public class LightingManager : MonoBehaviour{
 
     private void Update(){
         updateT += Time.deltaTime;
-        if(updateT > updatesPerSecond){
+        if(updateT > secondsBetweenUpdates){
             updateT = 0;
             StartCoroutine(UpdateLighting());
         }
@@ -122,25 +121,6 @@ public class LightingManager : MonoBehaviour{
                         break;
                 }
             }
-        }
-    }
-}
-
-
-[CustomEditor(typeof(LightingManager))]
-public class LightManagerEditor : Editor {
-    public override void OnInspectorGUI() {
-        base.OnInspectorGUI();
-        GUILayout.Space(30);
-        LightingManager manager = (LightingManager)target;
-
-
-        if(GUILayout.Button("Bake Lighting")){
-            manager.BakeLights();
-        }
-
-        if(GUILayout.Button("Clear Baked Lighting")){
-            manager.ClearBakedLights();
         }
     }
 }
