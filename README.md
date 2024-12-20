@@ -16,7 +16,7 @@
     -Baked lighting can be temporarily overwritten by realtime lights with more intensity
     (Intended for lighting background enviroments, since it's lighting doesn't translate to dynamic surfaces that move)
 
--Static Lights:
+-Dynamic Lights:
     -On Load, bakes just like a static, but can act as a realtime light, when the main camera is close
     -The activation distance is changable
     (Intended for main enviroment lighting, since they are a middle ground between static and realtime, offering performance even when there is a lot of them, but they can still cast lighting on dynamic surfaces when needed)
