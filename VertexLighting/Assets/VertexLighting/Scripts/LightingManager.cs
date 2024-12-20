@@ -11,6 +11,7 @@ public enum LightMode{
 }
 
 public class LightingManager : MonoBehaviour{
+    [Tooltip("Changes how lighting is rendered; Lit = lighting is Rendered, Unlit = Lighting not Rendered, DebugLight = Only Lighting is Rendered, DebugVert = Vert density visualiser")]
     public LightMode lightMode;
 
     [Space(10)]
