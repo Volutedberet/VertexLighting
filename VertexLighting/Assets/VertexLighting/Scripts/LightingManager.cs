@@ -19,16 +19,21 @@ public class LightingManager : MonoBehaviour{
     public float updatesPerSecond = 0.04f;
 
     [Space(10)]
-    public bool rebakeLightsOnStart;
+    public float dynamicLightActiveDistance = 50;
 
     [HideInInspector] public float msThisUpdate;
     LightMode modePrevFrame;
     float updateT;
+    [HideInInspector] public Camera camMain;
 
     private void Start(){
-        if(rebakeLightsOnStart){
-            BakeLights();
+        camMain = Camera.main;
+        LightPoint[] lights = FindObjectsOfType<LightPoint>();
+        foreach (var light in lights){
+            light.SetMeUp(this);
         }
+
+        BakeLights();
     }
 
     private void Update(){

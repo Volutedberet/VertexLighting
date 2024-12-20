@@ -40,7 +40,7 @@ public class LightableSurface : MonoBehaviour{
 
         for (int i = 0; i < vertices.Length; i++){
             foreach (var light in lights){
-                if(light.lightMode == LightRenderMode.baked){
+                if(light.lightMode == LightRenderMode.baked || light.lightMode == LightRenderMode.dynamic){
                     if(Vector3.Distance(this.transform.position + vertices[i], light.transform.position) < light.radious){
                         float lightLevel = Mathf.Lerp(1, 0, Vector3.Distance(this.transform.position + vertices[i], light.transform.position) / light.radious) * light.intensity;
                         if(lightLevel > bakedBrightness[i]){
@@ -93,6 +93,15 @@ public class LightableSurface : MonoBehaviour{
                             brightness[i] = lightLevel;
                         }
                     }                    
+                }else if(light.lightMode == LightRenderMode.dynamic){
+                    if(light.isLightActiveDynamic){     
+                        if(Vector3.Distance(this.transform.position + vertices[i], light.transform.position) < light.radious){
+                            float lightLevel = Mathf.Lerp(1, 0, Vector3.Distance(this.transform.position + vertices[i], light.transform.position) / light.radious) * light.intensity;
+                            if(lightLevel > brightness[i]){
+                                brightness[i] = lightLevel;
+                            }
+                        }       
+                    }
                 }
             }
             colors[i] = Color.Lerp(lightingManager.baseLightColor, new Color(1, 1, 1, 1), brightness[i]);
