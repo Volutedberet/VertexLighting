@@ -5,8 +5,15 @@ public class ExampleDataShower : MonoBehaviour{
     public Text dataDisplay;
     public LightingManager lm;
 
+    float updateT;
+
     void Update(){
-        dataDisplay.text = $"Current Mode: {lm.lightMode}  |  Lighting Time: {lm.msThisUpdate}MS  |  FPS: {(1.0f / Time.deltaTime).ToString("F0")}  |  Updates: {lm.updatesPerSecond.ToString("F3")}/s";
+        updateT += Time.deltaTime;
+
+        if(updateT > 0.05f){
+            dataDisplay.text = $"Current Mode: {lm.lightMode}  |  Lighting Time: {lm.msThisUpdate}MS  |  FPS: {(1.0f / Time.deltaTime).ToString("F0")}  |  Secs Between Updates: {lm.updatesPerSecond.ToString("F3")}";
+            updateT = 0;
+        }
 
         if(Input.GetKeyDown(KeyCode.Space)){
             switch (lm.lightMode){

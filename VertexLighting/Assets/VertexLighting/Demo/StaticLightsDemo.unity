@@ -166,6 +166,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &8114435
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,6 +214,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!43 &10616812
 Mesh:
   m_ObjectHideFlags: 0
@@ -790,6 +792,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &33050615
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,6 +840,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &50568184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,6 +1191,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &54294976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1634,6 +1639,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &72998490
 GameObject:
   m_ObjectHideFlags: 0
@@ -1681,6 +1687,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &76797278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1928,6 +1935,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &93795258
 GameObject:
   m_ObjectHideFlags: 0
@@ -2440,6 +2448,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &102715328
 GameObject:
   m_ObjectHideFlags: 0
@@ -2887,6 +2896,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &127244554
 GameObject:
   m_ObjectHideFlags: 0
@@ -2934,6 +2944,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &129394244
 GameObject:
   m_ObjectHideFlags: 0
@@ -3446,6 +3457,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &144600073
 GameObject:
   m_ObjectHideFlags: 0
@@ -3493,6 +3505,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &146941821
 GameObject:
   m_ObjectHideFlags: 0
@@ -4040,6 +4053,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &186114509
 GameObject:
   m_ObjectHideFlags: 0
@@ -4287,6 +4301,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &198123341
 GameObject:
   m_ObjectHideFlags: 0
@@ -4934,6 +4949,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &212380041
 GameObject:
   m_ObjectHideFlags: 0
@@ -5081,6 +5097,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &215164989
 GameObject:
   m_ObjectHideFlags: 0
@@ -5228,6 +5245,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &222713078
 GameObject:
   m_ObjectHideFlags: 0
@@ -5360,6 +5378,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &229073101
 Transform:
   m_ObjectHideFlags: 0
@@ -5607,6 +5626,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &238385688
 Transform:
   m_ObjectHideFlags: 0
@@ -5669,6 +5689,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &242049328
 GameObject:
   m_ObjectHideFlags: 0
@@ -6081,6 +6102,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &255394801
 GameObject:
   m_ObjectHideFlags: 0
@@ -6128,6 +6150,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!43 &266826976
 Mesh:
   m_ObjectHideFlags: 0
@@ -6440,6 +6463,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &275632969
 GameObject:
   m_ObjectHideFlags: 0
@@ -6587,6 +6611,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &284191896
 GameObject:
   m_ObjectHideFlags: 0
@@ -6734,6 +6759,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!43 &301462139
 Mesh:
   m_ObjectHideFlags: 0
@@ -7111,6 +7137,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &303813087
 GameObject:
   m_ObjectHideFlags: 0
@@ -7158,6 +7185,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &310956300
 GameObject:
   m_ObjectHideFlags: 0
@@ -7505,6 +7533,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -7889,6 +7918,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &349329342
 GameObject:
   m_ObjectHideFlags: 0
@@ -7936,6 +7966,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &349941291
 GameObject:
   m_ObjectHideFlags: 0
@@ -8083,6 +8114,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &356166728
 GameObject:
   m_ObjectHideFlags: 0
@@ -8430,6 +8462,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!43 &375106762
 Mesh:
   m_ObjectHideFlags: 0
@@ -8842,6 +8875,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &399639432
 GameObject:
   m_ObjectHideFlags: 0
@@ -9089,6 +9123,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &406310372
 GameObject:
   m_ObjectHideFlags: 0
@@ -9136,6 +9171,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &411864589
 GameObject:
   m_ObjectHideFlags: 0
@@ -9183,6 +9219,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &412793130
 GameObject:
   m_ObjectHideFlags: 0
@@ -9430,6 +9467,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &429801651
 GameObject:
   m_ObjectHideFlags: 0
@@ -9577,6 +9615,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &436980688
 GameObject:
   m_ObjectHideFlags: 0
@@ -9624,6 +9663,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &444307491
 GameObject:
   m_ObjectHideFlags: 0
@@ -9771,6 +9811,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &453455345
 GameObject:
   m_ObjectHideFlags: 0
@@ -10218,6 +10259,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &458358846
 GameObject:
   m_ObjectHideFlags: 0
@@ -10465,6 +10507,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &466621375
 GameObject:
   m_ObjectHideFlags: 0
@@ -10512,6 +10555,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &472864014
 GameObject:
   m_ObjectHideFlags: 0
@@ -10659,6 +10703,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &483944225
 GameObject:
   m_ObjectHideFlags: 0
@@ -10706,6 +10751,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &486951845
 GameObject:
   m_ObjectHideFlags: 0
@@ -10738,6 +10784,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &486951847
 Transform:
   m_ObjectHideFlags: 0
@@ -10800,6 +10847,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &488975232
 GameObject:
   m_ObjectHideFlags: 0
@@ -10947,6 +10995,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &504615174
 GameObject:
   m_ObjectHideFlags: 0
@@ -10994,6 +11043,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &505681491
 GameObject:
   m_ObjectHideFlags: 0
@@ -11626,6 +11676,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &529315885
 Transform:
   m_ObjectHideFlags: 0
@@ -11988,6 +12039,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &547254542
 GameObject:
   m_ObjectHideFlags: 0
@@ -12006,7 +12058,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &547254543
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12130,6 +12182,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!43 &553049008
 Mesh:
   m_ObjectHideFlags: 0
@@ -12827,6 +12880,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &587723018
 Transform:
   m_ObjectHideFlags: 0
@@ -12989,6 +13043,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!43 &590767657
 Mesh:
   m_ObjectHideFlags: 0
@@ -13286,6 +13341,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &593700671
 Transform:
   m_ObjectHideFlags: 0
@@ -13348,6 +13404,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &602342787
 GameObject:
   m_ObjectHideFlags: 0
@@ -13895,6 +13952,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &615213496
 GameObject:
   m_ObjectHideFlags: 0
@@ -14042,6 +14100,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &617529262
 GameObject:
   m_ObjectHideFlags: 0
@@ -14389,6 +14448,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &642157400
 GameObject:
   m_ObjectHideFlags: 0
@@ -14736,6 +14796,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &665607492
 GameObject:
   m_ObjectHideFlags: 0
@@ -15048,6 +15109,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &685872095
 GameObject:
   m_ObjectHideFlags: 0
@@ -15095,6 +15157,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &696156732
 GameObject:
   m_ObjectHideFlags: 0
@@ -15127,6 +15190,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &696156734
 Transform:
   m_ObjectHideFlags: 0
@@ -15654,6 +15718,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &708675673
 GameObject:
   m_ObjectHideFlags: 0
@@ -16201,6 +16266,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &735226805
 GameObject:
   m_ObjectHideFlags: 0
@@ -16348,6 +16414,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &741813480
 GameObject:
   m_ObjectHideFlags: 0
@@ -16595,6 +16662,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &746326977
 GameObject:
   m_ObjectHideFlags: 0
@@ -16642,6 +16710,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &748721657
 GameObject:
   m_ObjectHideFlags: 0
@@ -17089,6 +17158,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &771643772
 GameObject:
   m_ObjectHideFlags: 0
@@ -17236,6 +17306,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &779484491
 GameObject:
   m_ObjectHideFlags: 0
@@ -17883,6 +17954,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &810951060
 GameObject:
   m_ObjectHideFlags: 0
@@ -17930,6 +18002,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &813818594
 GameObject:
   m_ObjectHideFlags: 0
@@ -18477,6 +18550,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -18673,6 +18747,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &846876374
 GameObject:
   m_ObjectHideFlags: 0
@@ -18820,6 +18895,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &853300076
 GameObject:
   m_ObjectHideFlags: 0
@@ -18967,6 +19043,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &870206416
 GameObject:
   m_ObjectHideFlags: 0
@@ -19014,6 +19091,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &871469862
 GameObject:
   m_ObjectHideFlags: 0
@@ -20026,6 +20104,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &900481855
 GameObject:
   m_ObjectHideFlags: 0
@@ -20273,6 +20352,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &908921517
 GameObject:
   m_ObjectHideFlags: 0
@@ -20420,6 +20500,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &910457758
 GameObject:
   m_ObjectHideFlags: 0
@@ -20667,6 +20748,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &914656996
 GameObject:
   m_ObjectHideFlags: 0
@@ -21114,6 +21196,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &930705574
 GameObject:
   m_ObjectHideFlags: 0
@@ -21461,6 +21544,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &953154286
 GameObject:
   m_ObjectHideFlags: 0
@@ -21508,6 +21592,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &956617876
 GameObject:
   m_ObjectHideFlags: 0
@@ -21555,6 +21640,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &959771587
 GameObject:
   m_ObjectHideFlags: 0
@@ -22711,6 +22797,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1010961054
 GameObject:
   m_ObjectHideFlags: 0
@@ -22858,6 +22945,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1014159275
 GameObject:
   m_ObjectHideFlags: 0
@@ -23105,6 +23193,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1027008366
 GameObject:
   m_ObjectHideFlags: 0
@@ -23452,6 +23541,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1033574658
 GameObject:
   m_ObjectHideFlags: 0
@@ -23499,6 +23589,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1035388615
 GameObject:
   m_ObjectHideFlags: 0
@@ -23546,6 +23637,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1039311302
 GameObject:
   m_ObjectHideFlags: 0
@@ -23693,6 +23785,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1041536238
 GameObject:
   m_ObjectHideFlags: 0
@@ -24440,6 +24533,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1071414923
 GameObject:
   m_ObjectHideFlags: 0
@@ -24787,6 +24881,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1083402228
 GameObject:
   m_ObjectHideFlags: 0
@@ -25034,6 +25129,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1089703410
 GameObject:
   m_ObjectHideFlags: 0
@@ -25081,6 +25177,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!43 &1091525262
 Mesh:
   m_ObjectHideFlags: 0
@@ -26058,6 +26155,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1111156954
 GameObject:
   m_ObjectHideFlags: 0
@@ -26405,6 +26503,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!43 &1121511972
 Mesh:
   m_ObjectHideFlags: 0
@@ -26602,6 +26701,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &1127965328
 Transform:
   m_ObjectHideFlags: 0
@@ -26649,6 +26749,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &1128744498
 Transform:
   m_ObjectHideFlags: 0
@@ -26939,7 +27040,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 90
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -27106,6 +27207,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1150455673
 GameObject:
   m_ObjectHideFlags: 0
@@ -27138,6 +27240,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &1150455675
 Transform:
   m_ObjectHideFlags: 0
@@ -27500,6 +27603,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1168044089
 GameObject:
   m_ObjectHideFlags: 0
@@ -27547,6 +27651,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1170742087
 GameObject:
   m_ObjectHideFlags: 0
@@ -27594,6 +27699,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1175225213
 GameObject:
   m_ObjectHideFlags: 0
@@ -27626,6 +27732,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &1175225215
 Transform:
   m_ObjectHideFlags: 0
@@ -27673,6 +27780,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &1175683798
 Transform:
   m_ObjectHideFlags: 0
@@ -27735,6 +27843,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1199902554
 GameObject:
   m_ObjectHideFlags: 0
@@ -27782,6 +27891,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1200537131
 GameObject:
   m_ObjectHideFlags: 0
@@ -28229,6 +28339,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1211514123
 GameObject:
   m_ObjectHideFlags: 0
@@ -28261,6 +28372,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &1211514125
 Transform:
   m_ObjectHideFlags: 0
@@ -28423,6 +28535,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1214723516
 GameObject:
   m_ObjectHideFlags: 0
@@ -28970,6 +29083,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1224131688
 GameObject:
   m_ObjectHideFlags: 0
@@ -29502,6 +29616,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &1253569531
 Transform:
   m_ObjectHideFlags: 0
@@ -29649,6 +29764,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &1256214946
 Transform:
   m_ObjectHideFlags: 0
@@ -29811,6 +29927,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1258097009
 GameObject:
   m_ObjectHideFlags: 0
@@ -29858,6 +29975,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1263945175
 GameObject:
   m_ObjectHideFlags: 0
@@ -30735,6 +30853,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1293938649
 GameObject:
   m_ObjectHideFlags: 0
@@ -30782,6 +30901,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1307300563
 GameObject:
   m_ObjectHideFlags: 0
@@ -31094,6 +31214,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1320950547
 GameObject:
   m_ObjectHideFlags: 0
@@ -31141,6 +31262,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1323266992
 GameObject:
   m_ObjectHideFlags: 0
@@ -31488,6 +31610,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1334651627
 GameObject:
   m_ObjectHideFlags: 0
@@ -31635,6 +31758,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!43 &1349022483
 Mesh:
   m_ObjectHideFlags: 0
@@ -32756,6 +32880,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1386865534
 GameObject:
   m_ObjectHideFlags: 0
@@ -32903,6 +33028,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1396851476
 GameObject:
   m_ObjectHideFlags: 0
@@ -33815,6 +33941,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1436179934
 GameObject:
   m_ObjectHideFlags: 0
@@ -33962,6 +34089,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1445735136
 GameObject:
   m_ObjectHideFlags: 0
@@ -34009,6 +34137,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1447051786
 GameObject:
   m_ObjectHideFlags: 0
@@ -34256,6 +34385,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1456428725
 GameObject:
   m_ObjectHideFlags: 0
@@ -34603,6 +34733,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1485345218
 GameObject:
   m_ObjectHideFlags: 0
@@ -35552,6 +35683,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1513039262
 GameObject:
   m_ObjectHideFlags: 0
@@ -35599,6 +35731,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1517690878
 GameObject:
   m_ObjectHideFlags: 0
@@ -36046,6 +36179,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1535951536
 GameObject:
   m_ObjectHideFlags: 0
@@ -36193,6 +36327,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1538007892
 GameObject:
   m_ObjectHideFlags: 0
@@ -36425,6 +36560,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &1541044134
 Transform:
   m_ObjectHideFlags: 0
@@ -36987,6 +37123,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1561329455
 GameObject:
   m_ObjectHideFlags: 0
@@ -37034,6 +37171,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1571717196
 GameObject:
   m_ObjectHideFlags: 0
@@ -37431,6 +37569,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &1588766573
 Transform:
   m_ObjectHideFlags: 0
@@ -37593,8 +37732,9 @@ MonoBehaviour:
   lightMode: 0
   baseLightColor: {r: 0, g: 0, b: 0, a: 1}
   updatesPerSecond: 0.04
-  rebakeLightsOnStart: 1
+  dynamicLightActiveDistance: 50
   msThisUpdate: 0
+  camMain: {fileID: 0}
 --- !u!1 &1602644639
 GameObject:
   m_ObjectHideFlags: 0
@@ -37727,6 +37867,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &1609122933
 Transform:
   m_ObjectHideFlags: 0
@@ -37989,6 +38130,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1618120821
 GameObject:
   m_ObjectHideFlags: 0
@@ -38713,6 +38855,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1659834917
 GameObject:
   m_ObjectHideFlags: 0
@@ -38745,6 +38888,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &1659834919
 Transform:
   m_ObjectHideFlags: 0
@@ -38807,6 +38951,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1670016384
 GameObject:
   m_ObjectHideFlags: 0
@@ -39154,6 +39299,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1688817955
 GameObject:
   m_ObjectHideFlags: 0
@@ -39301,6 +39447,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1693460733
 GameObject:
   m_ObjectHideFlags: 0
@@ -39448,6 +39595,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1702458535
 GameObject:
   m_ObjectHideFlags: 0
@@ -39595,6 +39743,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1722032323
 GameObject:
   m_ObjectHideFlags: 0
@@ -39642,6 +39791,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1722299860
 GameObject:
   m_ObjectHideFlags: 0
@@ -39689,6 +39839,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1722870215
 GameObject:
   m_ObjectHideFlags: 0
@@ -39836,6 +39987,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1728437729
 GameObject:
   m_ObjectHideFlags: 0
@@ -39883,6 +40035,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1729902267
 GameObject:
   m_ObjectHideFlags: 0
@@ -40217,6 +40370,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &1733614559
 Transform:
   m_ObjectHideFlags: 0
@@ -40279,6 +40433,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1741397071
 GameObject:
   m_ObjectHideFlags: 0
@@ -40426,6 +40581,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1748561078
 GameObject:
   m_ObjectHideFlags: 0
@@ -41173,6 +41329,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1787830660
 GameObject:
   m_ObjectHideFlags: 0
@@ -41885,6 +42042,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1804754059
 GameObject:
   m_ObjectHideFlags: 0
@@ -42032,6 +42190,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!43 &1808453837
 Mesh:
   m_ObjectHideFlags: 0
@@ -42244,6 +42403,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1812018866
 GameObject:
   m_ObjectHideFlags: 0
@@ -42291,6 +42451,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1816049116
 GameObject:
   m_ObjectHideFlags: 0
@@ -42323,6 +42484,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!4 &1816049118
 Transform:
   m_ObjectHideFlags: 0
@@ -42385,6 +42547,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1828331392
 GameObject:
   m_ObjectHideFlags: 0
@@ -43097,6 +43260,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1866398502
 GameObject:
   m_ObjectHideFlags: 0
@@ -43444,6 +43608,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1870670777
 GameObject:
   m_ObjectHideFlags: 0
@@ -43491,6 +43656,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1873850817
 GameObject:
   m_ObjectHideFlags: 0
@@ -43638,6 +43804,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1884704248
 GameObject:
   m_ObjectHideFlags: 0
@@ -43785,6 +43952,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1887631974
 GameObject:
   m_ObjectHideFlags: 0
@@ -43832,6 +44000,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1895443357
 GameObject:
   m_ObjectHideFlags: 0
@@ -44208,6 +44377,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1915845238
 GameObject:
   m_ObjectHideFlags: 0
@@ -44255,6 +44425,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1922638865
 GameObject:
   m_ObjectHideFlags: 0
@@ -44302,6 +44473,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1933279759
 GameObject:
   m_ObjectHideFlags: 0
@@ -44914,6 +45086,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1944954683
 GameObject:
   m_ObjectHideFlags: 0
@@ -45261,6 +45434,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1953187798
 GameObject:
   m_ObjectHideFlags: 0
@@ -45308,6 +45482,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1953830984
 GameObject:
   m_ObjectHideFlags: 0
@@ -45455,6 +45630,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1973159294
 GameObject:
   m_ObjectHideFlags: 0
@@ -45602,6 +45778,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1979124426
 GameObject:
   m_ObjectHideFlags: 0
@@ -45749,6 +45926,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1985405527
 GameObject:
   m_ObjectHideFlags: 0
@@ -45896,6 +46074,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &1989460013
 GameObject:
   m_ObjectHideFlags: 0
@@ -46175,6 +46354,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &2002716814
 GameObject:
   m_ObjectHideFlags: 0
@@ -46322,6 +46502,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &2003310039
 GameObject:
   m_ObjectHideFlags: 0
@@ -46569,6 +46750,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &2011304562
 GameObject:
   m_ObjectHideFlags: 0
@@ -46816,6 +46998,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &2023212461
 GameObject:
   m_ObjectHideFlags: 0
@@ -46963,6 +47146,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &2030485907
 GameObject:
   m_ObjectHideFlags: 0
@@ -47010,6 +47194,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!43 &2033718235
 Mesh:
   m_ObjectHideFlags: 0
@@ -47222,6 +47407,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &2056305652
 GameObject:
   m_ObjectHideFlags: 0
@@ -47469,6 +47655,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &2065416894
 GameObject:
   m_ObjectHideFlags: 0
@@ -47916,6 +48103,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &2094572366
 GameObject:
   m_ObjectHideFlags: 0
@@ -48563,6 +48751,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!1 &2130720547
 GameObject:
   m_ObjectHideFlags: 0
@@ -48710,6 +48899,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 1
+  isLightActiveDynamic: 0
 --- !u!43 &2144481226
 Mesh:
   m_ObjectHideFlags: 0

@@ -7,9 +7,11 @@ public class LightableSurface : MonoBehaviour{
     Mesh mesh;
     float[] bakedBrightness;
     Vector3 startPosition;
+    Renderer renderer;
 
     void Start(){
         mesh = this.gameObject.GetComponent<MeshFilter>().mesh;
+        renderer = this.gameObject.GetComponent<Renderer>();
         startPosition = this.transform.position;
 
         if(bakedBrightness == null){
@@ -28,7 +30,7 @@ public class LightableSurface : MonoBehaviour{
 
     public void BakeLighting(){
         if(mesh == null){
-            mesh = this.gameObject.GetComponent<MeshFilter>().sharedMesh;
+            mesh = this.gameObject.GetComponent<MeshFilter>().mesh;
         }
 
         LightingManager lm = FindObjectOfType<LightingManager>();
@@ -71,7 +73,11 @@ public class LightableSurface : MonoBehaviour{
         mesh.colors = colors;     
     }
 
-    public void UpdateSurfaceLighting(LightingManager lightingManager, LightPoint[] lights){        
+    public void UpdateSurfaceLighting(LightingManager lightingManager, LightPoint[] lights){       
+        if(!renderer.isVisible){
+            return;
+        } 
+
         Vector3[] vertices = mesh.vertices;
         Color[] colors = new Color[vertices.Length];
         float[] brightness = new float[vertices.Length];

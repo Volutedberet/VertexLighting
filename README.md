@@ -20,4 +20,6 @@
 -Dynamic Lights:
     -On Load, they bake just like static lights, however if the Main Camera (marked by the MainCamera tag) gets in a set distance from them they switch to become realtime lights 
     (Intended for main enviroment lighting, since they are a middle ground between static and realtime, offering performance even when there is a lot of them, but they can still cast lighting on dynamic surfaces when needed)
+
+-3 Demo Scenes, showcasing a setup for each lighting mode
 ```
