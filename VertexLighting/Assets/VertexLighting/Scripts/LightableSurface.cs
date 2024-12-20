@@ -59,7 +59,7 @@ public class LightableSurface : MonoBehaviour{
 
     public void ClearBakedData(){
         if(mesh == null){
-            mesh = this.gameObject.GetComponent<MeshFilter>().sharedMesh;
+            mesh = this.gameObject.GetComponent<MeshFilter>().mesh;
         }
 
         Vector3[] vertices = mesh.vertices;

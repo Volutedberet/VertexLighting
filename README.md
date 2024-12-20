@@ -3,7 +3,7 @@
 
 ## This is a lighting system, that uses vertex colors to fake lighting, which was a technique used by older games like Silent Hill 1
 ![](https://github.com/Volutedberet/VertexLighting/blob/main/LightExample.png)
-### It produces some nice and blocky lighting, perfectly fitting for making games that look like they belong on the ps1
+## It produces some nice and blocky lighting, perfectly fitting for making games that look like they belong on the ps1
 
 ### Key Features:
 ```
@@ -69,4 +69,4 @@ Adding a light is extremely simple, you just add the LightPoint component to an 
             -Dynamic: If camera is close, acts as a realtime light, but it does a bake on start that it falls back to once the camera is farther away
 ```
 
-## You are free to use and modify this code as you wish, crediting is not needed but it's appreciated :3
+## You are free to use and modify this code as you wish, crediting is not needed, but it's appreciated :3
