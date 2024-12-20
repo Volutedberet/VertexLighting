@@ -1,4 +1,5 @@
 # Vertex Based Lighting, for Unity URP
+![](https://github.com/Volutedberet/VertexLighting/blob/main/VertexGif.gif)
 
 ## This lighting system uses vertex colors to fake lighting, which was a technique older games used, like Silent Hill 1
 ## The lightings resolution is 1-1 to the resolution of your meshes, so to get the intended blocky lighting, you must use low poly count meshes
