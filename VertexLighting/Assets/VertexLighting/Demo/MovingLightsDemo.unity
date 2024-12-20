@@ -861,6 +861,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 0
+  isLightActiveDynamic: 0
 --- !u!1 &487474698
 GameObject:
   m_ObjectHideFlags: 0
@@ -2790,7 +2791,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1141419622
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2915,6 +2916,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 0
+  isLightActiveDynamic: 0
 --- !u!1 &1214736906
 GameObject:
   m_ObjectHideFlags: 0
@@ -4471,6 +4473,7 @@ MonoBehaviour:
   radious: 6.5
   intensity: 1
   lightMode: 0
+  isLightActiveDynamic: 0
 --- !u!4 &1588766573
 Transform:
   m_ObjectHideFlags: 0
@@ -4534,8 +4537,9 @@ MonoBehaviour:
   lightMode: 0
   baseLightColor: {r: 0, g: 0, b: 0, a: 1}
   updatesPerSecond: 0.04
-  rebakeLightsOnStart: 0
+  dynamicLightActiveDistance: 50
   msThisUpdate: 0
+  camMain: {fileID: 0}
 --- !u!1 &1629791377
 GameObject:
   m_ObjectHideFlags: 0
