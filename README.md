@@ -21,7 +21,15 @@
     -The activation distance is changable
     (Intended for main enviroment lighting, since they are a middle ground between static and realtime, offering performance even when there is a lot of them, but they can still cast lighting on dynamic surfaces when needed)
 
+-4 light modes:
+    -lit (Lights rendered as normal)
+    -Unlit (No lighting)
+    -Light Debug (Only the lighting is rendered)
+    -Vertex Debug (Displays a gradient that helps you see how geometry dense the area is)
+
 -Adjustable update rate, to get even chunkier results
+
+-Custom main shader, that supports detail textures
 
 -3 Demo Scenes, showcasing a setup for each lighting mode
 ```

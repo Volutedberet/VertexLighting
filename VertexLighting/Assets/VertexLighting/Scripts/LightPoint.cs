@@ -16,7 +16,7 @@ public class LightPoint : MonoBehaviour{
     [Space(10), Tooltip("Realtime = Updates constantly; Baked = Updates only when lighting is baked, and only applies to static surfaces; Dynamic = Bakes onto static surfaces, and doesn't update onto non static surfaces, unless the Main Camera gets close to it")]
     public LightRenderMode lightMode;
 
-
+    //TODO: Add Flare Texture Option
     [HideInInspector] public bool isLightActiveDynamic;
     LightingManager lightingManager;
     Vector3 startPosition;
